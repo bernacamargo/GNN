@@ -9,7 +9,14 @@
 	<link rel="stylesheet" href="../bootstrap-3.3.6-dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="web/estilo-menu.css"/>
 	<link rel="stylesheet" href="web/estilo.css"/>
+
+	<!-- ===== JavaScript ===== -->
+	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
+	<script type="text/javascript" src="web/func.js"></script>
 </head>
+
 <body>
 <div class="container-fluid" id="corpo-full">
 
@@ -83,11 +90,5 @@
 		</footer>
 	</div>
 </div>
-
-	<!-- ===== JavaScript ===== -->
-<script type="text/javascript" src=../bootstrap-3.3.6-dist/js/jquery-2.2.0.js></script>
-<script type="text/javascript" src=../bootstrap-3.3.6-dist/js/bootstrap.js></script>
-<script type="text/javascript" src="../bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
-<script type="text/javascript" src="web/func.js"></script>
 </body>
 </html>
