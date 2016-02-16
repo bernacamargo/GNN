@@ -1,0 +1,34 @@
+/** Created by Bernardo on 15/02/2016.. */
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#corpo-full {
+    position: relative;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#cabecalho {
+    background-color: #333;
+    width: 100%;
+    height: 150px;
+}
+
+#cabecalho h1 {
+    position: relative;
+    top: 50%;
+    color: #ffffff;
+}
+
+#corpo {
+    background-color: #bbbbbb;
+}
+
+#rodape {
+    background-color: green;
+}
