@@ -1,23 +1,27 @@
 /** Created by Bernardo on 15/02/2016.. */
 
-.navbar-menu-fixo {
-    position: fixed;
-    top: 50px;
-    z-index: 1031;
+.navbar-menu-inicial {
+    position: relative;
+    bottom: -300px;
+    background-color: #333;
+    border-top: 1px solid #ffffff;
+    border-bottom: none;
 }
 
-.navbar-menu {
+.navbar-menu-final {
     position: relative;
     background-color: #333;
     border-top: 1px solid #ffffff;
+    border-bottom: none;
 }
 
 .navbar-brand {
     color: #ffffff;
+    border-right: 1px solid #ffffff;
 }
 
 .navbar-brand:hover {
-    color: #999;
+    color: #eeeeee;
 }
 
 .navbar-nav li a {
@@ -25,11 +29,23 @@
 }
 
 .navbar-nav li a:focus,
-.navbar-nav li a:active,
 .navbar-nav li a:hover {
     background-color: #ffffff;
     color: #000;
 }
+
+.navbar-nav .ativo {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.navbar-nav .ativo:hover,
+.navbar-nav .ativo:focus,
+.navbar-nav .ativo:active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 
 .navbar-nav li ul li a {
     background-color: #333333;
