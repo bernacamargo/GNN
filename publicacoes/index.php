@@ -10,7 +10,7 @@
 	<title>NanoNeuroBioPhysics</title>
 
 	<!-- ===== Stylesheet ===== -->
-	<link rel="stylesheet" href="../../bootstrap-3.3.6-dist/css/bootstrap.css"/>
+	<link rel="stylesheet" href="../web/bootstrap-3.3.6-dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="../web/estilo-menu.css"/>
 	<link rel="stylesheet" href="../web/estilo.css"/>
 
@@ -18,7 +18,14 @@
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/jquery-2.2.0.js"></script>
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
+	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
 	<script type="text/javascript" src="../web/func.js"></script>
+	<script type="text/javascript">
+		offsetValue = 40;
+		$('#publicacoes').data().scrollspy.options.offset = offsetValue;
+		// force scrollspy to recalculate the offsets to your targets
+		$('#publicacoes').data().scrollspy.process();
+	</script>
 </head>
 
 <body>
@@ -28,19 +35,40 @@
 	"../web/menu.php";
 	?>
 
+	<!-- Menu-lateral -->
+	<nav class="navbar-lateral" role="navigation">
+		<ul class="nav nav-stacked">
+			<li><a href="#2015-1">2015</a></li>
+			<li><a href="">2014</a></li>
+			<li><a href="">2013</a></li>
+			<li><a href="">2012</a></li>
+			<li><a href="">2011</a></li>
+			<li><a href="">2010</a></li>
+			<li><a href="">2009</a></li>
+			<li><a href="">2008</a></li>
+			<li><a href="">2007</a></li>
+			<li><a href="">2006</a></li>
+			<li><a href="">2005</a></li>
+			<li><a href="">2003</a></li>
+		</ul>
+	</nav>
+
+
 	<!-- CORPO -->
 	<div style="top: 150px;" class="container" id="corpo">
 
-		<h1 class="titulo">Publicações</h1>
+		<li class="article-header">
+			<h1 class="titulo">Publicações</h1>
+		</li>
 
 		<br>
 		<li class="separador" role="separator"></li>
 		<br>
 
-		<div class="entry-content">
+		<div style="position: relative;" data-spy="scroll" data-target=".navbar-lateral" id="publicacoes">
 			<h6 class="subtitulo">&#9634; Artigos com DOI</h6><br>
 			<ul>
-				<h5 style="font-weight: bolder;">&nbsp;&nbsp;2015</h5>
+				<h5 class="publicacoes-ano" id="2015-1">&nbsp;&nbsp;2015</h5>
 				<li> ; Reis, T. O. ; de Oliveira, G. S.  ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/7698772123076672" target="_blank">ZIEMATH, Ervino Carlos</a> . Construção de uma Balança Simples para Determinação da Tensão Superficial. Revista Brasileira de Ensino de Física (Impresso), v. 37, p. 1503-1507, 2015.
 					<b>LEITE, F. L.</b><div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.1590/S1806-11173711658&amp;issn=18061117&amp;volume=37&amp;issue=&amp;paginaInicial=1503&amp;titulo=Construção de uma Balança Simples para Determinação da Tensão Superficial&amp;sequencial=1&amp;nomePeriodico=Revista Brasileira de Ensino de Física (Impresso)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1806-11173711658" target="_blank">DOI</a><br>
 						<br class="clear"><p></p>
@@ -50,7 +78,7 @@
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=07984545&amp;volume=24&amp;issue=&amp;paginaInicial=53&amp;titulo=Evidências De Detecção Do Herbicida Atrazina Por Espectroscopia De Força Atômica: Uma Ferramenta Promissora Para Sensoriamento Ambiental&amp;sequencial=3&amp;nomePeriodico=Acta Microscópica - Interamerican Committee of Societies for Electron Microscopy">
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">Ierich, J. C. M. </span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span>Ierich, J. C. M.  ; de Oliveira, G. S.  ; Vig, A. C.  ; Amarante, A. M. ; Franca, E. F. ; <b>LEITE, F. L.</b> ; MASCARENHAS, Y.P. . A Computational Protein Structure Refinement of the Yeast Acetohydroxyacid Synthase. Journal of the Brazilian Chemical Society (Impresso), v. 26, p. 1702-1709, 2015.
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.5935/0103-5053.20150144&amp;issn=01035053&amp;volume=26&amp;issue=&amp;paginaInicial=1702&amp;titulo=A Computational Protein Structure Refinement of the Yeast Acetohydroxyacid Synthase&amp;sequencial=4&amp;nomePeriodico=Journal of the Brazilian Chemical Society (Impresso)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.5935/0103-5053.20150144" target="_blank">DOI</a><p></p>
-						<h5 style="font-weight: bolder;">2014</h5>
+						<h5 class="publicacoes-ano">2014</h5>
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">Steffens C.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>Steffens C. ; <b>Leite, Fabio L.</b> ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8318865433486386" target="_blank">Manzoli, A.</a> ; Sandoval, R. D.  ; Fatibello, O.  ; Herrmann, P. S. P.  . Microcantilever Sensors Coated with a Sensitive Polyaniline Layer for Detecting Volatile Organic Compounds. Journal of Nanoscience and Nanotechnology (Print), v. 14, p. 6718-6722, 2014.
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.1166/jnn.2014.9348&amp;issn=15334880&amp;volume=14&amp;issue=&amp;paginaInicial=6718&amp;titulo=Microcantilever Sensors Coated with a Sensitive Polyaniline Layer for Detecting Volatile Organic Compounds&amp;sequencial=5&amp;nomePeriodico=Journal of Nanoscience and Nanotechnology (Print)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.1166/jnn.2014.9348" target="_blank">DOI</a><p></p>
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">da Silva, A. C. N.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>da Silva, A. C. N. ; Deda, D. K. ; Bueno, C. C. ; Moraes, A. S. ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/3396117031935227" target="_blank">RÓZ, Alessandra Luzia da</a> ; Yamaji, F. M. ; PRADO, R. A. ; Viviani, V. ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8582867831317500" target="_blank">Oliveira Jr., Osvaldo N.</a> ; <b>Leite, Fabio L.</b> . Nanobiosensors Exploiting Specific Interactions Between an Enzyme and Herbicides in Atomic Force Spectroscopy. Journal of Nanoscience and Nanotechnology (Print), v. 14, p. 6678-6684, 2014.
@@ -73,7 +101,7 @@
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.1590/1516-1439.269414&amp;issn=15161439&amp;volume=17&amp;issue=&amp;paginaInicial=1523&amp;titulo=Surface characterization and osteoblast-like Cells culture on collagen modified PLDLA scaffolds&amp;sequencial=14&amp;nomePeriodico=Materials Research (São Carlos. Impresso)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1516-1439.269414" target="_blank">DOI</a><p></p>
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">Simões, G. F. </span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span>Simões, G. F.  ; Inácio, R. F.  ; Gonçalves, G. R.  ; Augusto, T. M.  ; Thomé, R.  ; Verinaud, L.  ; de Oliveira, A. L. R. ; <b>LEITE, F. L.</b> . Pregabalin protects neurons of pro-inflammatory action of the T lymphocytes encephalitogenic. Perspectivas Médicas (FMJ), v. 25, p. 21-30, 2014.
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.6006/perspectmed.20140303.0265557174&amp;issn=01002929&amp;volume=25&amp;issue=&amp;paginaInicial=21&amp;titulo=Pregabalin protects neurons of pro-inflammatory action of the T lymphocytes encephalitogenic&amp;sequencial=15&amp;nomePeriodico=Perspectivas Médicas (FMJ)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.6006/perspectmed.20140303.0265557174" target="_blank">DOI</a><p></p>
-						<h5 style="font-weight: bolder;">2013</h5>
+						<h5 class="publicacoes-ano">2013</h5>
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">SANCHES, E.A.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>SANCHES, E.A. ; SOARES, J.C. ; MAFUD, A.C. ; FERNANDES, E.G.R. ; <b>Leite, F.L.</b> ; MASCARENHAS, Y.P. . Structural characterization of Chloride Salt of conducting polyaniline obtained by XRD, SAXD, SAXS and SEM. Journal of Molecular Structure (Print), v. 1036, p. 121-126, 2013.
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.molstruc.2012.09.084&amp;issn=00222860&amp;volume=1036&amp;issue=&amp;paginaInicial=121&amp;titulo=Structural characterization of Chloride Salt of conducting polyaniline obtained by XRD, SAXD, SAXS and SEM&amp;sequencial=16&amp;nomePeriodico=Journal of Molecular Structure (Print)"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.molstruc.2012.09.084" target="_blank">DOI</a><p></p>
 					</div></li><li><span class="informacao-artigo" data-tipo-ordenacao="autor">Deda, D. K.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2013</span>Deda, D. K. ; de Brito, B.S. ; Bueno, C. C. ; da Silva, A. C. N. ; RIBEIRO, G. A. ; Amarante, A. M. ; Franca, E. F. ; <b>LEITE, F. L.</b> . The Use of Functionalized AFM tips as Molecular Sensors in the Detection of Pesticides. Materials Research (São Carlos. Impresso), v. 16, p. 683-687, 2013.
@@ -84,33 +112,33 @@
 					<div class="citacoes" tooltip="Citações a partir de 1996" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.jmgm.2013.08.007&amp;issn=10933263&amp;volume=45&amp;issue=&amp;paginaInicial=128&amp;titulo=Molecular Modeling of Enzyme Attachment on AFM Probes&amp;sequencial=19&amp;nomePeriodico=Journal of Molecular Graphics &amp; Modelling"> – <a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jmgm.2013.08.007" target="_blank">DOI</a><p></p>
 						<p>
 						</p></div></li><li>Leite, F.L.; Bueno, C.C.; Da Róz, A.L.; Ziemath, E.C.; Oliveira, O.N., Jr. <strong>Theoretical Models for Surface Forces and Adhesion and Their Measurement Using Atomic Force Microscopy.</strong> Int. J. Mol. Sci. 2012, 13, 12773-12856. – <a href="http://dx.doi.org/10.3390/ijms131012773" target="_blank">DOI</a></li>
-				<h5 style="font-weight: bolder;">2012</h5>
+				<h5 class="publicacoes-ano">2012</h5>
 				<li>Souza, Adriano L. ; Marques, Lygia A. ; Eberlin, Marcos N. ;&nbsp;<a href="http://lattes.cnpq.br/1387043320265189" target="blank">Nascente, Pedro A.P.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">Herrmann, Paulo S.P.</a>&nbsp;; Leite, Fabio L. ;<a href="http://lattes.cnpq.br/4073581583592013" target="blank">Rodrigues-Filho, Ubirajara P.</a>&nbsp;. <strong>Self-assembled hybrid films of phosphotungstic acid and aminoalkoxysilanes on SiO2/Si surfaces</strong>. Thin Solid Films, v. 520, p. 3574-3580, 2012. – <a href="http://dx.doi.org/10.1016/j.tsf.2011.12.069" target="_blank">DOI</a></li>
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/6165304398755510" target="blank">Mir, Mirta</a>&nbsp;; Leite, Fabio Lima ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;; Pissetti, Fabio Luiz ; Rossi, Alexandre Malta ; Moreira, Elizabeth Lima ;&nbsp;<a href="http://lattes.cnpq.br/2734203117778600" target="blank">MASCARENHAS, Yvonne Primerano</a>&nbsp;. <strong>XRD, AFM, IR and TGA study of nanostructured hydroxyapatite</strong>. Materials Research (São Carlos. Impresso), v. 15, p. 00-5, 2012. – <a href="http://dx.doi.org/10.1590/S1516-14392012005000069" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2011</h5>
+				<h5 class="publicacoes-ano">2011</h5>
 				<li><a href="http://lattes.cnpq.br/8224498867270799" target="blank">Steffens, Clarice</a>&nbsp;; Leite, Fabio L. ; Bueno, Carolina C. ;&nbsp;<a href="http://lattes.cnpq.br/8318865433486386" target="blank">Manzoli, Alexandra</a>&nbsp;; Herrmann, Paulo Sergio De Paula . <strong>Atomic Force Microscopy as a Tool Applied to Nano/Biosensors</strong>. Sensors (Basel), v. 12, p. 8278-8300, 2012. – <a href="http://dx.doi.org/10.3390/s120608278" target="_blank">DOI</a></li>
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/9096097972613963" target="blank">Franca, Eduardo F.</a>&nbsp;; Leite, Fábio L. ;&nbsp;<a href="http://lattes.cnpq.br/1758994795037297" target="blank">Cunha, Richard A.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">Oliveira Jr., Osvaldo N.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3461414255262928" target="blank">Freitas, Luiz C. G.</a>&nbsp;. <strong>Designing an enzyme-based nanobiosensor using molecular modeling techniques</strong>. PCCP. Physical Chemistry Chemical Physics (Print), v. 13, p. 8894, 2011. – <a href="http://dx.doi.org/10.1039/c1cp20393b" target="_blank">DOI</a></li>
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/8318865433486386" target="blank">Manzoli, Alexandra</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8224498867270799" target="blank">Steffens, Clarice</a>&nbsp;; Paschoalin, Rafaella T. ;&nbsp;<a href="http://lattes.cnpq.br/1081570279786124" target="blank">Correa, Alessandra A.</a>&nbsp;; Alves, William F. ; Leite, Fábio L. ;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">Herrmann, Paulo S. P.</a>&nbsp;. <strong>Low-Cost Gas Sensors Produced by the Graphite Line-Patterning Technique Applied to Monitoring Banana Ripeness</strong>. Sensors (Basel), v. 11, p. 6425-6434, 2011. – <a href="http://dx.doi.org/10.3390/s110606425" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2010</h5>
+				<h5 class="publicacoes-ano">2010</h5>
 				<li><a href="http://lattes.cnpq.br/3396117031935227" target="blank">Da Róz, A.L.</a>&nbsp;; Leite, F.L. ; Pereiro, L.V. ;&nbsp;<a href="http://lattes.cnpq.br/1387043320265189" target="blank">Nascente, P.A.P.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5768000922241088" target="blank">Zucolotto, V.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">Oliveira Jr., O.N.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5050955206618507" target="blank">Carvalho, A.J.F.</a>&nbsp;. <strong>Adsorption of chitosan on spin-coated cellulose films</strong>. Carbohydrate Polymers, v. 80, p. 65-70, 2010. – <a href="http://dx.doi.org/10.1016/j.carbpol.2009.10.062" target="_blank">DOI</a></li>
 				<p>
 				</p><li>Alves, William F. ;&nbsp;<a href="http://lattes.cnpq.br/7562128593261814" target="blank">Venancio, Everaldo C.</a>&nbsp;; Leite, Fabio L. ; Kanda, Darcy H.F. ; Malmonge, Luiz F. ; Malmonge, José A. ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">Mattoso, Luiz H.C.</a>&nbsp;. <strong>Thermo-analyses of polyaniline and its derivatives</strong>. Thermochimica Acta (Print), v. 502, p. 43-46, 2010. – <a href="http://dx.doi.org/10.1016/j.tca.2010.02.003" target="_blank">DOI</a></li>
 				<p>
 				</p><li>Morais Teixeira, Eliangela ; Corrêa, Ana Carolina ;&nbsp;<a href="http://lattes.cnpq.br/8318865433486386" target="blank">Manzoli, Alexandra</a>&nbsp;; LEITE, F. L. ; Oliveira, Cauê Ribeiro ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;. <strong>Cellulose nanofibers from white and naturally colored cotton fibers</strong>. Cellulose (London), v. 17, p. 595-606, 2010. – <a href="http://dx.doi.org/10.1007/s10570-010-9403-0" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2009</h5>
+				<h5 class="publicacoes-ano">2009</h5>
 				<li><a href="http://lattes.cnpq.br/7562128593261814" target="blank">Xavier, Miguel G.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/7562128593261814" target="blank">Venancio, Everaldo C.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/1505400360366643" target="blank">Pereira, Ernesto C.</a>&nbsp;; LEITE, F. L. ; Leite, Edson R. ; MacDiarmid, Alan G. ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">Mattoso, L. H. C.</a>&nbsp;. <strong>Synthesis of Nanoparticles and Nanofibers of Polyaniline by Potentiodynamic Electrochemical Polymerization</strong>. Journal of Nanoscience and Nanotechnology, v. 9, p. 2169-2172, 2009. – <a href="http://dx.doi.org/10.1166/jnn.2009.409" target="_blank">DOI</a></li>
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/1705430650855494" target="blank">PATERNO, L</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/6830993024983648" target="blank">FONSECA, F</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/1533608416789504" target="blank">ALCANTARA, G</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/1034449975741992" target="blank">SOLER, M</a>&nbsp;; MORAIS, P ; SINNECKER, J ;&nbsp;<a href="http://lattes.cnpq.br/3940543577818673" target="blank">NOVAK, M</a>&nbsp;; LIMA, E ; LEITE, F ;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, L</a>&nbsp;. <strong>Fabrication and characterization of nanostructured conducting polymer films containing magnetic nanoparticles</strong>. Thin Solid Films, v. 517, p. 1753-1758, 2009. – <a href="http://dx.doi.org/10.1016/j.tsf.2008.09.062" target="_blank">DOI</a></li>
 				<p>
 				</p><li>Leite, Fabio L. ;&nbsp;<a href="http://lattes.cnpq.br/1781353673140920" target="blank">FIRMINO, Alessandra</a>&nbsp;; Borato, Carlos E. ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">Mattoso, Luiz H.C.</a>&nbsp;; da Silva, Wilson T.L. ;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">Oliveira Jr., Osvaldo N.</a>&nbsp;. <strong>Sensor arrays to detect humic substances and Cu(II) in waters</strong>. Synthetic Metals, v. 159, p. 2333-2337, 2009. – <a href="http://dx.doi.org/10.1016/j.synthmet.2009.07.058" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2008</h5>
+				<h5 class="publicacoes-ano">2008</h5>
 				<li>BRUGNOLLO, E ;&nbsp;<a href="http://lattes.cnpq.br/1705430650855494" target="blank">PATERNO, L</a>&nbsp;; LEITE, F ;&nbsp;<a href="http://lattes.cnpq.br/6830993024983648" target="blank">FONSECA, F</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/6118325967319836" target="blank">CONSTANTINO, C</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/6801270542810402" target="blank">ANTUNES, P</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, L</a>&nbsp;. <strong>Fabrication and characterization of chemical sensors made from nanostructured films of poly(o-ethoxyaniline) prepared with different doping acids</strong>. Thin Solid Films, v. 516, p. 3274-3281, 2008. – <a href="http://dx.doi.org/10.1016/j.tsf.2007.08.118" target="_blank">DOI</a></li>
 				<p>
 				</p><li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/6165304398755510" target="blank">Mir, Mirta</a>&nbsp;; Ferreira, W. A. ;&nbsp;<a href="http://lattes.cnpq.br/2734203117778600" target="blank">MASCARENHAS, Yvonne Primerano</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;. <strong>TEM, XRD and AFM Study of Poly(o-ethoxyaniline) Films: New Evidence for the Formation of Conducting Islands</strong>. Applied Physics. A, Materials Science &amp; Processing, v. 93, p. 537-542, 2008. – <a href="http://dx.doi.org/10.1007/s00339-008-4686-9" target="_blank">DOI</a></li>
@@ -123,14 +151,14 @@
 				<p>
 				</p><li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/2734203117778600" target="blank">MASCARENHAS, Yvonne Primerano</a>&nbsp;; ALVES, M. E. . <strong>Study of Brazilian Latosols by Atomic Force Microscopy</strong>. Scanning, v. 30, p. 275-276, 2008. – <a href="http://dx.doi.org/10.1002/sca.20106" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2007</h5>
+				<h5 class="publicacoes-ano">2007</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/1892065190987449" target="blank">BORATO, Carlos Eduardo</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8492938071491133" target="blank">SILVA, Wilson Tadeu Lopes da</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;. <strong>Atomic Force Spectroscopy on Poly(o-ethoxyaniline) Nanostructured Films: Sensing Nonspecific Interactions</strong>. Microscopy &amp; Microanalysis, v. 13, p. 304-312, 2007. – <a href="http://dx.doi.org/10.1017/S1431927607070262" target="_blank">DOI</a></li>
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/5820606948533146" target="blank">Consolin Filho, N</a>&nbsp;; LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/5292233426713160" target="blank">CARVALHO, E. R.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/7562128593261814" target="blank">Venancio EC</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/2178305101977911" target="blank">VAZ, Carlos Manoel Pedro</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;. <strong>Study of poly(o-Ethoxyaniline) Interactions with Herbicides and Evaluation of Conductive Polymer Potential used in Electrochemical Sensors</strong>. Journal of the Brazilian Chemical Society, v. 18, p. 577-584, 2007. – <a href="http://dx.doi.org/10.1590/S0103-50532007000300013" target="_blank">DOI</a></li>
 				<p>
 				</p><li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/8213371495151651" target="blank">Oliveira Neto M</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/1705430650855494" target="blank">PATERNO, Leonardo Giordano</a>&nbsp;; Ballestero MR ;&nbsp;<a href="http://lattes.cnpq.br/9669532724764871" target="blank">Polikarpov I</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/2734203117778600" target="blank">MASCARENHAS, Yvonne Primerano</a>&nbsp;;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;. <strong>Nanoscale Conformational Ordering in Polyanilines Investigated by SAXS and AFM</strong>. Journal of Colloid and Interface Science, v. 316, p. 376-387, 2007. – <a href="http://dx.doi.org/10.1016/j.jcis.2007.08.069" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2006</h5>
+				<h5 class="publicacoes-ano">2006</h5>
 				<li><a href="http://lattes.cnpq.br/6008435446505316" target="blank">SANTOS, JR, David S. dos</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/6876934607948564" target="blank">CARDOSO, Marcos R.</a>&nbsp;; LEITE, F. L. ; AROCA, Ricardo F. ; MENDONCÜA, Cleber R. ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;. <strong>The Role of Azopolymer/Dendrimer Layer-by-Layer Film Architecture in Photoinduced Birefringence and the Formation of Surface-Relief Gratings</strong>. Langmuir, USA, v. 22, n. 14, p. 6177-6180, 2006. – <a href="http://dx.doi.org/10.1021/la060399q" target="_blank">DOI</a></li>
 				<p>
 				</p><li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3396117031935227" target="blank">RÓZ, Alessandra Luzia da</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5341317535477702" target="blank">FERREIRA, Fabio Cezar</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8106067351019340" target="blank">Curvelo AAS</a>&nbsp;;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;. <strong>Investigation of Sisal Fibers by Atomic Force Microscopy: Morphology and Adhesive Characteristics</strong>. Journal of Nanoscience and Nanotechnology, USA, v. 6, n. 8, p. 2354-2361, 2006. – <a href="http://dx.doi.org/10.1166/jnn.2006.522" target="_blank">DOI</a></li>
@@ -141,7 +169,7 @@
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/1892065190987449" target="blank">Borato,</a>&nbsp;; Leite, ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">Mattoso,</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/1846950986024778" target="blank">Goy,</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/4709958581193166" target="blank">Campana Filho,</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/7657769529479698" target="blank">de Vasconcelos,</a>&nbsp;; da Trindade Neto, ;&nbsp;<a href="http://lattes.cnpq.br/1505400360366643" target="blank">Pereira,</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/6830993024983648" target="blank">Fonseca,</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">Oliveira,</a>&nbsp;; Leite, Fabio L. . &lt;![CDATA[<strong>Layer-by-layer films of poly(o-ethoxyaniline), chitosan and chitosan-poly(methacrylic acid) nanoparticles and their application in an electronic</strong> tongue]]&gt;. IEEE Transactions on Dielectrics and Electrical Insulation, v. 13, p. 1101-1109, 2006. – <a href="http://dx.doi.org/10.1109/TDEI.2006.247838" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2005</h5>
+				<h5 class="publicacoes-ano">2005</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Application of Atomic Force Spectroscopy (AFS) on Adhesion Phenomenon- A Review</strong>. Journal of Adhesion Science and Technology, Netherlands, v. 19, n. 3, p. 365-406, 2005. – <a href="http://dx.doi.org/10.1163/1568561054352667" target="_blank">DOI</a></li>
 				<p>
 				</p><li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/7698772123076672" target="blank">ZIEMATH, Ervino Carlos</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Adhesion Forces for Mica and Silicon Oxide Surfaces Studied by Atomic Force Spectroscopy (AFS)</strong>. Microscopy &amp; Microanalysis, v. 11, n. S03, p. 130-133, 2005. – <a href="http://dx.doi.org/10.1017/s1431927605051068" target="_blank">DOI</a></li>
@@ -154,7 +182,7 @@
 				<p>
 				</p><li><a href="http://lattes.cnpq.br/1781353673140920" target="blank">FIRMINO, Alessandra</a>&nbsp;; Borato, Carlos E. ; LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">Oliveira Jr., Osvaldo N.</a>&nbsp;; da Silva, Wilson T.L. ;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">Mattoso, L. H. C.</a>&nbsp;. <strong>Sensors for detecting humic substances and heavy metal complexes in waters</strong>. Proceedings of the IEEE, v. 1, p. 420-423, 2005. – <a href="http://dx.doi.org/10.1109/ISE.2005.1612413" target="_blank">DOI</a></li>
 				<p></p>
-				<h5 style="font-weight: bolder;">2003</h5>
+				<h5 class="publicacoes-ano">2003</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/0751163307734256" target="blank">RIUL JUNIOR, Antonio</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Mapping of adhesion forces on soil minerals in air and water by atomic force spectroscopy (AFS)</strong>. Journal of Adhesion Science and Technology, Netherlands, v. 17, n. 16, p. 2141-2156, 2003. – <a href="http://dx.doi.org/10.1163/156856103772150751" target="_blank">DOI</a></li>
 				<p>
 				</p></ul>
@@ -165,11 +193,11 @@
 
 			<h6 class="subtitulo">&#9634; Artigos sem DOI</h6><br>
 			<ul>
-				<h5 style="font-weight: bolder;"> 2006</h5>
+				<h5 class="publicacoes-ano"> 2006</h5>
 				<li><a href="http://lattes.cnpq.br/8408216349957378" target="blank">F S De Vicente</a>&nbsp;; M I B Bernardi ; LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/2019448857205643" target="blank">HERNANDES, Antonio Carlos</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>TiO2 Films Produced by Electron Beam Vacuum Deposition from Nanometric Power obtained by Pechini`s Method</strong>. Revista Brasileira de Aplicações de Vácuo, v. 25, p. 24-30, 2006.</li>
-				<h5 style="font-weight: bolder;">2005</h5>
+				<h5 class="publicacoes-ano">2005</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/7698772123076672" target="blank">ZIEMATH, Ervino Carlos</a>&nbsp;. <strong>Análise de Minerais do Solo por Espectroscopia de Força Atômica</strong>. Comunicado Técnico (Embrapa Instrumentação Agropecuária), v. 70, p. 01-07, 2005.</li>
-				<h5 style="font-weight: bolder;">2003</h5>
+				<h5 class="publicacoes-ano">2003</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Characterization of Adhesion Force of two soils minerals particles (mica and silicon) in the nanoscale using AFM</strong>. Acta Microscópica – Interamerican Committee of Societies for Electron Microscopy, v. 12, p. 130-131, 2003.</li>
 			</ul>
 
@@ -179,9 +207,9 @@
 
 			<h6 class="subtitulo">&#9634; Livros e Capítulos de Livros</h6><br>
 			<ul>
-				<h5 style="font-weight: bolder;">&nbsp;&nbsp;2015</h5>
+				<h5 class="publicacoes-ano">2015</h5>
 				<li><b>LEITE, F. L.</b> . Revelações – Nada Será como Antes…. 1. ed. Rio de Janeiro: PUBLIT COMÉRCIO DE SOLUÇÕES EDITORIAIS LTDA, 2015. v. 1. 236p .<br></li>
-				<h5 style="font-weight: bolder;">2014</h5>
+				<h5 class="publicacoes-ano">2014</h5>
 				<li><b>LEITE, F. L.</b> (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/3396117031935227" target="_blank">RÓZ, Alessandra Luzia da</a> (Org.) ; Ferreira, M. (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8582867831317500" target="_blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a> (Org.) . Nanociência &amp; Nanotecnologia: Príncipios e Aplicações (Nanoestruturas). 1. ed. São Paulo: Elsevier, 2014. v. 1. 304p .
 				</li><li><b>LEITE, F. L.</b> (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/3396117031935227" target="_blank">RÓZ, Alessandra Luzia da</a> (Org.) ; Ferreira, M. (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8582867831317500" target="_blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a> (Org.) . Nanociência &amp; Nanotecnologia: Príncipios e Aplicações (Grandes Áreas da Nanociência e suas Aplicações). 1. ed. São Paulo: Elsevier, 2014. v. 1. 317p.
 				</li><li><b>LEITE, F. L.</b> (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/3396117031935227" target="_blank">RÓZ, Alessandra Luzia da</a> (Org.) ; Ferreira, M. (Org.) ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8582867831317500" target="_blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a> (Org.) . Nanociência &amp; Nanotecnologia: Príncipios e Aplicações (Técnicas de Nanocaracterização). 1. ed. São Paulo: Elsevier, 2014. v. 1. 239p .
@@ -192,32 +220,33 @@
 				</li><li>Amarante, A. M. ; de Oliveira, G. S.  ; Ierich, J. C. M.  ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/1758994795037297" target="_blank">Cunha, Richard A.</a> ; Freitas, L. C. G. ; Franca, E. F. ; <b>LEITE, F. L.</b> . Modelagem Molecular Aplicada a Nanobiossistemas. In: Alessandra Luzia Da Róz, Fabio de Lima Leite, Marystela Ferreira &amp; Osvaldo Novais de Oliveira Jr. (Org.). Nanociência &amp; Nanotecnologia: Príncipios e Aplicações (Grandes Áreas da Nanociência e suas Aplicações). 1ed.São Paulo: Elsevier, 2014, v. 2, p. 221-267.
 				</li><li>Tararan, R.  ; GARCIA, P. S. ; Deda, D. K. ; Varela, J. A. ; <b>LEITE, F. L.</b> . Microscopia de Força Atômica: Uma Poderosa Ferramenta para Caracterização Elétrica. In: Alessandra Luzia Da Róz, Fabio de Lima Leite, Marystela Ferreira &amp; Osvaldo Novais de Oliveira Jr. (Org.). Nanociência &amp; Nanotecnologia: Príncipios e Aplicações (Técnicas de Nanocaracterização). 1ed.São Paulo: Elsevier, 2014, v. 3, p. 45-74.
 				</li><li>Steffens C. ; Steffens, J. ; <a title="Clique para visualizar o currículo" class="tooltip" href="http://lattes.cnpq.br/8318865433486386" target="_blank">Manzoli, A.</a> ; <b>LEITE, F. L.</b> ; Herrmann, P. S. P.  . Nanotecnologia Aplicada a Produção e Processamento de Alimentos. In: Juliana Steffens; Geciane Toniazzo Backes; Alice Teresa Valduga. (Org.). Processos Tecnológicos, Biotecnológicos e Engenharia de Processos em Alimentos. 1ed.Erechim: EdiFAPES, 2014, v. 1, p. 33-51.<br>
-					<h5 style="font-weight: bolder;">2013</h5>
+					<h5 class="publicacoes-ano">2013</h5>
 				</li><li><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-25414-7_10" target="_blank"></a>Róz, Alessandra Luzia ; Castro Bueno, Carolina ; Yamaji, Fabio Minoru ; Brandl, Ana Lucia ; <b>Lima Leite, Fabio</b> . Application of Atomic Force Microscopy in Natural Polymers. In: Bharat Bhushan. (Org.). Scanning Probe Microscopy in Nanoscience and Nanotechnology 3. 1ed.Berlin: Springer Berlin Heidelberg, 2013, v. 3, p. 249-290.<br>
 					<h5>2012</h5>
 				</li><li>de Oliveira, R. R. L. ; Albuquerque, D. A. C. ; Cruz, T. G. S. ; Yamaji, F. M. ; LEITE, F. L. . <strong>Measurement of the nanoscale roughness by atomic force microscopy: Basic Principles and Applications.</strong> In: Victor Bellitto. (Org.). Atomic Force Microscopy. 1 ed. Croatia: In Tech, 2012, v. 3, p. 147-174.</li>
 				<li><a href="http://lattes.cnpq.br/3396117031935227" target="blank">RÓZ, Alessandra Luzia da</a>&nbsp;; Bueno, C. C. ; Yamaji, F. M. ; LEITE, F. L. . <strong>Application of Atomic Force Microscopy in Natural Polymers.</strong> In: B. Bhushan. (Org.). Scanning Probe Microscopy in Nanoscience and Nanotechnology. 00 ed. : Springer-Verlag, 2012, v. 3, p. 00-00.</li>
 				<li>Deda, D. K. ; Bueno, C. C. ; Ribeiro, G. A.; Moraes, A. S.; Garcia, P. S.; Souza, B. B.; Leite, F. L. . <strong>Atomic Force Microscopy-Based Molecular Recognition: A Promissing Alternative to Environmental Contaminants Detection.</strong> In: A. Méndez-Vilas. (Org.). Current microscopy contributions to advances in science and technology. Badajoz: Formatex Research Center, 2012, v. 5, p. 00-30. </li>
-				<h5 style="font-weight: bolder;">2010</h5>
+				<h5 class="publicacoes-ano">2010</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/8318865433486386" target="blank">Manzoli, A.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;. <strong>Scanning Probe Microscopy as a Tool Applied to Agriculture.</strong> In: Bharat Bhushan. (Org.). Scanning Probe Microscopy in Nanoscience and Nanotechnology (NanoScience and Technology). 1 ed. : Springer, 2010, v. 1, p. 915-943.</li>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/9217911214522756" target="blank">SANCHES, E. A.</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;. <strong>Atomic Force Microscopy Study of Conductive Polymers.</strong> In: Ali Eftekhari. (Org.). Nanostructured Conductive Polymers. 1 ed. : Wiley, 2010, v. 1, p. 375-410.</li>
 				<li>Franca, E. F. ; Amarante, A. M. ; LEITE, F. L. . Introduction to Atomic Force Microscopy Simulation. In: A. Méndez-Vilas and J. Díaz (Eds.). (Org.). <strong>Microscopy: Science, Technology, Applications and Education.</strong> 1 ed. Badajoz, Spain: FORMATEX RESEARCH CENTER, 2010, v. 2, p. 1338-1349.</li>
-				<h5 style="font-weight: bolder;">2008</h5>
+				<h5 class="publicacoes-ano">2008</h5>
 				<li>Alonso, R. L. ;&nbsp;<a href="http://lattes.cnpq.br/8213371495151651" target="blank">Oliveira Neto M</a>&nbsp;; LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/9669532724764871" target="blank">Polikarpov I</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/2734203117778600" target="blank">MASCARENHAS, Yvonne Primerano</a>&nbsp;. <strong>Simulated Annealing of Two Electronic Density Solution Systems.</strong> In: Cher Ming Tan. (Org.). Global Optimization: Focus on Simulated Annealing. Viena, Austria: I-Tech Education, 2008, v. 1, p. 343-362.</li>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/8582867831317500" target="blank">OLIVEIRA JUNIOR, Osvaldo Novais de</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/5839043594908917" target="blank">MATTOSO, Luiz Henrique Capparelli</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>The Atomic Force Spectroscopy as a Tool to Investigate Surface Forces: Basic Principles and Applications.</strong> In: A. Méndez-Vilas and J. Díaz. (Org.). Modern Research and Educational Topics in Microscopy – 2007 Edition. 1 ed. : Formatex, 2007, v. 2, p. 747-757.</li>
-				<h5 style="font-weight: bolder;">2005</h5>
+				<h5 class="publicacoes-ano">2005</h5>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/0751163307734256" target="blank">RIUL JUNIOR, Antonio</a>&nbsp;;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Mapping of adhesion forces on soil minerals in air and water by atomic force spectroscopy (AFS).</strong> In: K L Mittal; J Drelich. (Org.). Atomic Force Microscopy in Adhesion Studies. 1 ed. Boston: V. S. P. Boston, 2005, v. 1, p. 625-640.</li>
 				<li>LEITE, F. L. ;&nbsp;<a href="http://lattes.cnpq.br/3478230611350302" target="blank">HERRMANN JUNIOR, Paulo Sérgio de Paula</a>&nbsp;. <strong>Application of Atomic Force Spectroscopy (AFS) to Studies of Adhesion Phenomena: a Review.</strong> In: Kash L. Mittal and Jaroslaw Drelich. (Org.). Atomic Force Microscopy in Adhesion Studies. 1 ed. : Brill Academic Pub, 2005, v. 1, p. 3-44.</li>
 			</ul>
 
 	</div>
 
-	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
-
-		</footer>
 	</div>
+
+
+	<!-- FOOTER -->
+	<?php include '../web/footer.php';?>
+
+
 </div>
 </body>
 </html>

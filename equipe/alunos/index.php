@@ -22,7 +22,7 @@ $DESCRIÇAO = 'ALUNOS';
 </head>
 
 <body>
-<div class="container-fluid" id="corpo-full">
+<div id="corpo-full">
 
 	<?php include "../../web/menu-1.php"; ?>
 
@@ -32,7 +32,7 @@ $DESCRIÇAO = 'ALUNOS';
 
 		<article id="post-174" class="post-174 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="entry-title titulo">Alunos</h1>
+				<li class="article-header"><h1 class="entry-title titulo">Alunos</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -53,9 +53,14 @@ $DESCRIÇAO = 'ALUNOS';
 				<li role="separator" class="separador"></li>
 				<br>
 
+
+				<div id="equipe" class="container" align="left">
+
+
 				<h6 class="subtitulo">&#9634; Iniciação Científica</h6><br><br>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/isabela.png" alt="" title="isabela" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
+				<p style="display: block;">
+					<img style="float: right;border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/isabela.png" alt="" title="isabela" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
 					<strong>Nome:</strong> Isabela Thomé de Souza Rossi<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/1757715801066343" target="_blank">http://lattes.cnpq.br/1757715801066343</a><br />
 					<strong>E-mail:</strong> <a href="mailto:isabela_rossi@hotmail.com" target="_blank">isabela_rossi@hotmail.com</a><br />
@@ -110,7 +115,7 @@ $DESCRIÇAO = 'ALUNOS';
 
 				<br><br>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/akemi.png" alt="" title="akemi" width="113" height="157" class="alignleft size-full wp-image-166" /><br />
+				<p class="esquerda"><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/akemi.png" alt="" title="akemi" width="113" height="157" class="alignleft size-full wp-image-166" /><br />
 					<strong>Nome:</strong> Akemi Martins Higa<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/6604767006305417" target="_blank">http://lattes.cnpq.br/6604767006305417</a><br />
 					<strong>E-mail:</strong> <a href="mailto:akemi.higa@hotmail.com" target="_blank">akemi.higa@hotmail.com</a><br />
@@ -245,15 +250,13 @@ $DESCRIÇAO = 'ALUNOS';
 										   <strong>Supervisores:</strong> Prof. Dr. Fábio de Lima Leite &#8211; <a href="http://lattes.cnpq.br/5490031389817518" target="_blank">Lattes</a> e Profa. Dra. Elaine Cristina Silva-Zacarin &#8211; <a href="http://lattes.cnpq.br/3993998796939609" target="_blank">Lattes</a></p>
 				<p></br><br />
 					<br /></br></p>
+				</div>
 		</article>
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

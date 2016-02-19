@@ -32,7 +32,7 @@ $DESCRIÇAO = 'PROJETOS EM DESENVOLVIMENTO';
 	<div style="top: 150px;" class="container" id="corpo">
 		<article id="post-85" class="post-85 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="titulo">Projetos em Desenvolvimento</h1>
+				<li class="article-header"><h1 class="titulo">Projetos em Desenvolvimento</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -159,11 +159,8 @@ $DESCRIÇAO = 'PROJETOS EM DESENVOLVIMENTO';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

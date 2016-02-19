@@ -33,7 +33,7 @@ $DESCRIÇAO = 'LINHAS DE PESQUISA';
 
 		<article id="post-257" class="post-257 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="titulo">Linhas de Pesquisa</h1>
+				<li class="article-header"><h1 class="titulo">Linhas de Pesquisa</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -88,11 +88,8 @@ $DESCRIÇAO = 'LINHAS DE PESQUISA';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

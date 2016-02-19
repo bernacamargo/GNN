@@ -31,7 +31,7 @@ $DESCRIÇAO = 'COLABORADORES';
 
 		<article id="post-577" class="post-577 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="titulo">Colaboradores</h1>
+				<li class="article-header"><h1 class="titulo">Colaboradores</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -99,11 +99,8 @@ $DESCRIÇAO = 'COLABORADORES';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

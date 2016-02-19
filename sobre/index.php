@@ -34,7 +34,7 @@ $DESCRIÇAO = 'SOBRE';
 
 		<article id="post-261" class="post-261 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="titulo">Sobre o GNN</h1>
+				<li class="article-header"><h1 class="titulo">Sobre o GNN</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -55,11 +55,8 @@ $DESCRIÇAO = 'SOBRE';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

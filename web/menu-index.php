@@ -14,7 +14,7 @@
 
 	<nav style="border-radius: 0;" id="menu" class="navbar navbar-menu-inicial">
 
-		<div class="container-fluid">
+		<div align="center" class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -24,7 +24,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="../../GNN/"><span class="glyphicon glyphicon-home"></span></a>
+				<a class="navbar-brand" href="../../GNN/">&nbsp;&nbsp;<span class="glyphicon glyphicon-home"></span></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,8 +46,8 @@
 						<a href="#"class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apoio <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="apoio/colaboradores">Colaboradores</a></li>
-							<li><a href="apoio/patentes">Patentes</a></li>
-							<li><a href="apoio/patrocinadores">Patrocinadores</a></li>
+							<li role="presentation" class="disabled"><a href="">Patentes</a></li>
+							<li role="presentation" class="disabled"><a href="">Patrocinadores</a></li>
 						</ul>
 					</li>
 					<li><a href="sobre">Sobre</a></li>
@@ -55,12 +55,6 @@
 
 
 				</ul>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>

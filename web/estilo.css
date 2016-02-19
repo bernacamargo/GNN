@@ -1,14 +1,23 @@
 /** Created by Bernardo on 15/02/2016.. */
 
-body {
+body,html {
+    position: relative;
     height: 100%;
-    margin: 0;
-    background-color: #ffffff;
-    padding-bottom: 50px;
+    background-color: #e0e0e0;
+    padding-top: 50px;
+    margin-top: -50px;
 }
 
 .container {
     width: 80%;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 a {
@@ -23,11 +32,8 @@ a:focus {
 
 #corpo-full {
     position: relative;
+    width: 100%;
     height: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 50px;
-    padding-top: 0;
 }
 
 .cabecalho-inicial {
@@ -54,24 +60,21 @@ a:focus {
     position: relative;
     text-shadow: 6px 2px 2px #0f0f0f;
     top: 50%;
-    left: 50%;
-    margin-left: -30%;
+    text-align: center;
     color: #ffffff;
 }
 
 .cabecalho-final h1 {
     position: relative;
     top: 0;
-    left: 50%;
-    margin-left: -30%;
+    text-align: center;
     z-index: 1030;
     color: #ffffff;
 }
 
 .cabecalho-inicial h1 small {
     position: relative;
-    left: 50%;
-    margin-left: -42%;
+    text-align: center;
     color: #999;
     text-shadow: 2px 1px 1px #000;
 
@@ -83,15 +86,25 @@ a:focus {
 
 #corpo {
     position: relative;
-    top: 0px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px 1px;
     color: #000;
-    padding-bottom: 50px;
+    border-radius: 10px;
+    padding-bottom: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.titulo {
+    font-weight: normal;
+    color: #ffffff;
 }
 
-.titulo {
-    font-weight: bolder;
-    text-align: center;
+.article-header {
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #5e5e5e;
 }
 
 .subtitulo {
@@ -106,7 +119,55 @@ a:focus {
     background-color: #000;
 }
 
+.esquerda {
+    text-align: left;
+}
+
+.publicacoes-ano {
+    position: relative;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+/* =================== FOOTER =================== */
+
 #rodape {
-    background-color: green;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    z-index: 1031;
+    background-color: #333;
+    color: #ffffff;
+    border-top: 1px solid #333;
+}
+
+#rodape .contato {
+    width: 100%;
+    background-color: transparent;
+    color: #ffffff;
+    height: 330px;
+}
+
+#rodape .footer {
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    padding-top: 35px;
+}
+
+#rodape .footer #footer {
+    position: relative;
+    height: 70px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: 10pt;
 }
 

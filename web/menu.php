@@ -12,7 +12,7 @@
 
 	<nav style="border-radius: 0;" id="menu" class="navbar navbar-menu-final">
 
-		<div class="container-fluid">
+		<div align="center" class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -32,7 +32,7 @@
 					<li><a href="../projetos_em_desenvolvimento">Projetos em Desenvolvimento</a></li>
 					<li><a href="../linhas-de-pesquisa">Linhas de Pesquisa</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="../equipe/alunos">Alunos</a></li>
 							<li><a href="../equipe/ex-alunos">Ex-Alunos</a></li>
@@ -44,21 +44,18 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apoio <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="../apoio/colaboradores">Colaboradores</a></li>
-							<li><a href="../apoio/patentes">Patentes</a></li>
-							<li><a href="../apoio/patrocinadores">Patrocinadores</a></li>
+							<li role="presentation" class="disabled"><a href="">Patentes</a></li>
+							<li role="presentation" class="disabled"><a href="">Patrocinadores</a></li>
 						</ul>
 					</li>
 					<li><a href="../sobre">Sobre</a></li>
 					<li><a href="../contato">Contato</a></li>
+					<li><a href="../contato">Contato</a></li>
+					<li><a href="../contato">Contato</a></li>
+
 
 
 				</ul>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>

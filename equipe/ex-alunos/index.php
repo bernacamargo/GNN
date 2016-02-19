@@ -34,7 +34,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 
 		<article id="post-253" class="post-253 page type-page status-publish hentry">
 			<header class="entry-header">
-				<h1 class="titulo">Ex-Alunos</h1>
+				<li class="article-header"><h1 class="titulo">Ex-Alunos</h1></li>
 			</header><!-- .entry-header -->
 
 			<br>
@@ -139,11 +139,8 @@ $DESCRIÇAO = 'EX-ALUNOS';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include '../../web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>

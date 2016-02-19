@@ -27,10 +27,12 @@ $DESCRIÇAO = 'PAGINA INICIAL';
 			//FUNCAO SCROLL TOP
 			$(window).scroll(function () {
 				if ($(document).scrollTop() > 150) {
+					// Inicial -> Final
 					$("#cabecalho").switchClass('cabecalho-inicial', 'cabecalho-final', 50);
 					$("#menu").switchClass('navbar-menu-inicial', 'navbar-menu-final', 50);
-					$("#corpo").css("top", "250px");
+					$("#corpo").css("top", "0");
 				} else {
+					// Final -> Inicial
 					$("#cabecalho").switchClass('cabecalho-final', 'cabecalho-inicial', 0);
 					$("#menu").switchClass('navbar-menu-final', 'navbar-menu-inicial', 0);
 					$("#corpo").css("top", "0");
@@ -54,11 +56,8 @@ $DESCRIÇAO = 'PAGINA INICIAL';
 	</div>
 
 	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<footer>
+	<?php include 'web/footer.php';?>
 
-		</footer>
-	</div>
 </div>
 </body>
 </html>
