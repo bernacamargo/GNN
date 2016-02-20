@@ -1,10 +1,11 @@
+<?php include 'sistema.php'?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
 </head>
 <body>
-<div id="rodape">
+<div id="rodape" style="<?php echo $template_theme ?>">
 	<div class="contato">
 		<div id="contato" class="container">
 

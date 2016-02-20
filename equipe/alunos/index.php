@@ -59,8 +59,8 @@ $DESCRIÇAO = 'ALUNOS';
 
 				<h6 class="subtitulo">&#9634; Iniciação Científica</h6><br><br>
 
-				<p style="display: block;">
-					<img style="float: right;border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/isabela.png" alt="" title="isabela" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
+				<p>
+					<img style="float: right; border: 3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/isabela.png" alt="" title="isabela" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
 					<strong>Nome:</strong> Isabela Thomé de Souza Rossi<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/1757715801066343" target="_blank">http://lattes.cnpq.br/1757715801066343</a><br />
 					<strong>E-mail:</strong> <a href="mailto:isabela_rossi@hotmail.com" target="_blank">isabela_rossi@hotmail.com</a><br />
@@ -75,7 +75,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Foto-Perfil.jpg" alt="" title="leticia" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Foto-Perfil.jpg" alt="" title="leticia" width="113" height="157" class="alignleft size-full wp-image-154" /><br />
 					<strong>Nome:</strong> Letícia Ceschi Bertoli<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/6218507280198988" target="_blank">http://lattes.cnpq.br/6218507280198988</a><br />
 					<strong>E-mail:</strong> <a href="mailto:leehceschi@gmail.com" target="_blank">leehceschi@gmail.com</a><br />
@@ -85,7 +85,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/IMG_8969Studio-R.jpg" alt="" title="mariana1" width="113" height="157" class="alignleft size-full wp-image-230" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/IMG_8969Studio-R.jpg" alt="" title="mariana1" width="113" height="157" class="alignleft size-full wp-image-230" /><br />
 					<strong>Nome:</strong> Mariana Arnaud de Andrade<br />
 					<strong>Curriculum Lattes: </strong><a href="http://lattes.cnpq.br/1232885734168714" target="_blank">http://lattes.cnpq.br/1232885734168714</a><br />
 					<strong>E-mail:</strong> <a href="mailto:mariana_arnaud@hotmail.com" target="_blank">mariana_arnaud @hotmail.com</a><br />
@@ -97,7 +97,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Vanessa-e1439309485601.jpg" alt="" title="mariana1" width="113" height="157" class="alignleft size-full wp-image-230" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Vanessa-e1439309485601.jpg" alt="" title="mariana1" width="113" height="157" class="alignleft size-full wp-image-230" /><br />
 					<strong>Nome:</strong> Vanessa de Luca<br />
 					<strong>Curriculum Lattes: </strong><a href="http://lattes.cnpq.br/3585508432934278" target="_blank">http://lattes.cnpq.br/3585508432934278</a><br />
 					<strong>E-mail:</strong> <a href="mailto:vanessa.luca@bol.com.br" target="_blank">vanessa.luca@bol.com.br</a><br />
@@ -115,7 +115,7 @@ $DESCRIÇAO = 'ALUNOS';
 
 				<br><br>
 
-				<p class="esquerda"><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/akemi.png" alt="" title="akemi" width="113" height="157" class="alignleft size-full wp-image-166" /><br />
+				<p class="esquerda"><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/akemi.png" alt="" title="akemi" width="113" height="157" class="alignleft size-full wp-image-166" /><br />
 					<strong>Nome:</strong> Akemi Martins Higa<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/6604767006305417" target="_blank">http://lattes.cnpq.br/6604767006305417</a><br />
 					<strong>E-mail:</strong> <a href="mailto:akemi.higa@hotmail.com" target="_blank">akemi.higa@hotmail.com</a><br />
@@ -136,7 +136,7 @@ $DESCRIÇAO = 'ALUNOS';
 
 				<br><br>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/adriano.png" alt="" title="adriano" width="113" height="157" class="alignleft size-full wp-image-225" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/adriano.png" alt="" title="adriano" width="113" height="157" class="alignleft size-full wp-image-225" /><br />
 					<strong>Nome:</strong> Adriano Moraes Amarante<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/5625045786963147" target="_blank">http://lattes.cnpq.br/5625045786963147</a><br />
 					<strong>E-mail:</strong> <a href="mailto:amarante_adriano2@hotmail.com" target="_blank">amarante_adriano2@hotmail.com</a> / <a href="mailto:amarante_adriano2@usp.br" target="_blank">amarante_adriano2@usp.br</a><br />
@@ -149,7 +149,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/ariana.png" alt="" title="ariana" width="113" height="157" class="alignleft size-full wp-image-147" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/ariana.png" alt="" title="ariana" width="113" height="157" class="alignleft size-full wp-image-147" /><br />
 					<strong>Nome:</strong> Ariana de Souza Moraes<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/2663903225861715" target="_blank">http://lattes.cnpq.br/2663903225861715</a><br />
 					<strong>E-mail:</strong> <a href="mailto:ariana_smoraes@yahoo.com.br" target="_blank">ariana_smoraes@yahoo.com.br</a> / <a href="mailto:ariana_sm@usp.br" target="_blank"> ariana_sm@usp.br</a><br />
@@ -162,7 +162,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Foto_artigo.jpg" alt="" title="jessic" width="113" height="157" class="alignleft size-full wp-image-218" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2015/08/Foto_artigo.jpg" alt="" title="jessic" width="113" height="157" class="alignleft size-full wp-image-218" /><br />
 					<strong>Nome: </strong>Jéssica Cristiane Magalhães Ierich<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/3623982355552761" target="_blank">http://lattes.cnpq.br/3623982355552761</a><br />
 					<strong>E-mail:</strong> <a href="mailto:jcmierich@gmail.com" target="_blank">jcmierich@gmail.com</a> / <a href="mailto:jcmierich@usp.br" target="_blank">jcmierich@usp.br</a><br />
@@ -182,7 +182,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/livia.png" alt="" title="livia" width="113" height="157" class="alignleft size-full wp-image-234" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/livia.png" alt="" title="livia" width="113" height="157" class="alignleft size-full wp-image-234" /><br />
 					<strong>Nome:</strong> Livia Francischini Rodrigues<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/7203043693374052" target="_blank">http://lattes.cnpq.br/7203043693374052</a><br />
 					<strong>E-mail:</strong> <a href="mailto:l1v1nha_fr@hotmail.com" target="_blank">l1v1nha_fr@hotmail.com</a><br />
@@ -193,7 +193,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/pamela.png" alt="" title="pamela" width="113" height="157" class="alignleft size-full wp-image-221" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/pamela.png" alt="" title="pamela" width="113" height="157" class="alignleft size-full wp-image-221" /><br />
 					<strong>Nome:</strong> Pâmela Soto Garcia<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/5266136255801303" target="_blank">http://lattes.cnpq.br/5266136255801303</a><br />
 					<strong>E-mail:</strong> <a href="mailto:pamelasotogarcia@usp.br" target="_blank">pamelasotogarcia@usp.br</a><br />
@@ -214,7 +214,7 @@ $DESCRIÇAO = 'ALUNOS';
 
 				<br><br>
 
-				<p><img style="border:3px ridge #ccc" src="http://nanoneurobiophysics.net/wp-content/uploads/2015/08/P1010351-e1438959344709.jpg" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://nanoneurobiophysics.net/wp-content/uploads/2015/08/P1010351-e1438959344709.jpg" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
 					<strong>Nome:</strong> Gisela Bevilacqua Rolfsen Ferreira da Silva<br />
 					<strong>Curriculum Lattes: </strong><a href="http://lattes.cnpq.br/7753883898595186" target="_blank">http://lattes.cnpq.br/7753883898595186</a><br />
 					<strong>E-mail:</strong> <a href="mailto:giselarolfsen@yahoo.com.br" target="_blank">giselarolfsen@yahoo.com.br</a><br />
@@ -226,7 +226,7 @@ $DESCRIÇAO = 'ALUNOS';
 				<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/gued.png" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/gued.png" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
 					<strong>Nome:</strong> Guedmiller Souza de Oliveira<br />
 					<strong>Curriculum Lattes: </strong><a href="http://lattes.cnpq.br/6137757653195953" target="_blank">http://lattes.cnpq.br/6137757653195953</a><br />
 					<strong>Outras Referências: </strong><a href="http://www.researcherid.com/rid/D-3841-2013" target="_blank">Researcher ID</a> / <a href="https://www.researchgate.net/profile/Guedmiller_Oliveira" target="_blank">Reserch Gate</a> / <a href="https://scholar.google.com.br/citations?user=xfywWuIAAAAJ&#038;hl=en" target="_blank">Google Scholar</a> / <a href="https://www.linkedin.com/pub/guedmiller-souza/29/286/615" target="_blank">LinkedIn</a><br />
@@ -239,7 +239,7 @@ $DESCRIÇAO = 'ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:3px ridge #ccc" src="http://nanoneurobiophysics.net/wp-content/uploads/2015/08/moema-e1439309930659.jpg" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
+				<p><img style="float: right; border:3px ridge #ccc" src="http://nanoneurobiophysics.net/wp-content/uploads/2015/08/moema-e1439309930659.jpg" alt="" title="gued" width="113" height="157" class="alignleft size-full wp-image-209" /><br />
 					<strong>Nome:</strong> Moema A. Hausen<br />
 					<strong>Curriculum Lattes: </strong><a href="http://lattes.cnpq.br/4062568797583413" target="_blank">http://lattes.cnpq.br/4062568797583413</a><br />
 					<strong>E-mail:</strong> <a href="mailto:moemahausen@gmail.com" target="_blank">moemahausen@gmail.com</a><br />

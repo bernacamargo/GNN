@@ -3,7 +3,7 @@
 .navbar-menu-inicial {
     position: relative;
     bottom: -300px;
-    background-color: #333;
+    border-right: 1px solid rgba(255,255,255,.2);
     border-top: none;
     border-bottom: none;
     box-shadow: 5px 5px 5px #999;
@@ -11,11 +11,9 @@
 
 .navbar-menu-final {
     position: relative;
-    background-color: #333;
     border-top: none;
     border-bottom: none;
     box-shadow: 5px 5px 5px #999;
-
 }
 
 .navbar-brand {
@@ -31,7 +29,7 @@
 
 .navbar-nav li a {
     color: #ffffff;
-    background-color: #333;
+    background-color: transparent;
     -webkit-transition: background-color .3s;
     -moz-transition: background-color .3s;
     -ms-transition: background-color .3s;
@@ -75,7 +73,7 @@
 }
 
 .navbar-nav li .dropdown-menu li a {
-    background-color: #333;
+    background-color: transparent;
     line-height: 25pt;
     color: #ffffff;
 }
@@ -98,18 +96,25 @@ ul.dropdown-menu .disabled:focus {
 
 }
 
+.navbar-nav li.dropdown.open .dropdown-toggle{
+    color: #000;
+}
 
 
 
+/* =========== MENU-LATERAL : PUBLICAÇÕES =========== */
 
-
-
-
+#menu-lateral {
+    position: fixed;
+    top: 20%;
+    height: 100%;
+    overflow: hidden;
+    width: 10%;
+    background-color: transparent;
+}
 
 .navbar-lateral {
-    position: fixed;
-    left: 30px;
-    top: 30%;
+    position: relative;
     z-index: 1030;
     background-color: transparent;
 }
@@ -119,10 +124,37 @@ ul.dropdown-menu .disabled:focus {
 }
 
 .navbar-lateral ul li a:hover,
-.navbar-lateral ul li a:active,
-.navbar-lateral ul li a:focus{
-    background-color: #333;
-    color: #fff;
+.navbar-lateral ul li a:focus {
+    background: rgb(69,72,77); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    color: #ff7600;
     border-radius: 5px;
-    
+}
+
+.menu-header {
+    color: #ff7600;
+}
+
+.menu-header:hover {
+    background-color: #ff7600;
+    border-bottom: #333;
+}
+
+.navbar-lateral > ul > li > ul.dropdown-menu {
+    position: relative;
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-lateral > ul > li.open > a.dropdown-toggle {
+    color: #ff7600;
+    background-color: transparent;
+}
+
+.navbar-lateral > ul > li > ul > li > a {
+    line-height: 25pt;
+    color: #ff7600;
 }

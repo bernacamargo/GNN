@@ -29,7 +29,7 @@ $DESCRIÇAO = 'LINHAS DE PESQUISA';
 	?>
 
 	<!-- CORPO -->
-	<div align="center" style="top: 150px;" class="container" id="corpo">
+	<div style="top: 150px;" class="container" id="corpo">
 
 		<article id="post-257" class="post-257 page type-page status-publish hentry">
 			<header class="entry-header">
@@ -40,7 +40,7 @@ $DESCRIÇAO = 'LINHAS DE PESQUISA';
 			<li class="separador" role="separator"></li>
 			<br>
 
-			<div class="entry-content">
+			<div align="center" class="entry-content">
 
 				<h5 class="subtitulo">&#9634; Nanoscopy (AFM) – Nanocharacterization</h5>
 				<p><img src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/08/img-1-300x154.png" alt="" title="img 1" width="300" height="154" class="aligncenter size-medium wp-image-439" srcset="http://nanoneurobiophysics.net/wp-content/uploads/2012/08/img-1-300x154.png 300w, http://nanoneurobiophysics.net/wp-content/uploads/2012/08/img-1.png 554w" sizes="(max-width: 300px) 100vw, 300px" /></p>

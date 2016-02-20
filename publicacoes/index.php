@@ -36,22 +36,49 @@
 	?>
 
 	<!-- Menu-lateral -->
-	<nav class="navbar-lateral" role="navigation">
-		<ul class="nav nav-stacked">
-			<li><a href="#2015-1">2015</a></li>
-			<li><a href="">2014</a></li>
-			<li><a href="">2013</a></li>
-			<li><a href="">2012</a></li>
-			<li><a href="">2011</a></li>
-			<li><a href="">2010</a></li>
-			<li><a href="">2009</a></li>
-			<li><a href="">2008</a></li>
-			<li><a href="">2007</a></li>
-			<li><a href="">2006</a></li>
-			<li><a href="">2005</a></li>
-			<li><a href="">2003</a></li>
-		</ul>
-	</nav>
+	<div align="center" id="menu-lateral">
+		<nav class="navbar-lateral" role="navigation">
+			<ul class="nav nav-stacked">
+				<li ><a class="dropdown-header" href="">Índice</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle menu-header" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" href="#">Artigos com DOI</a>
+					<ul class="dropdown-menu">
+						<li><a href="#2015-1">2015</a></li>
+						<li><a href="">2014</a></li>
+						<li><a href="">2013</a></li>
+						<li><a href="">2012</a></li>
+						<li><a href="">2011</a></li>
+						<li><a href="">2010</a></li>
+						<li><a href="">2009</a></li>
+						<li><a href="">2008</a></li>
+						<li><a href="">2007</a></li>
+						<li><a href="">2006</a></li>
+						<li><a href="">2005</a></li>
+						<li><a href="">2003</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle menu-header" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" href="#">Artigos sem DOI</a>
+					<ul class="dropdown-menu">
+						<li><a href="">2006</a></li>
+						<li><a href="">2005</a></li>
+						<li><a href="">2003</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle menu-header" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false" href="#">Livros e Capitulos</a>
+					<ul class="dropdown-menu">
+						<li><a href="#2015-1">2015</a></li>
+						<li><a href="">2014</a></li>
+						<li><a href="">2013</a></li>
+						<li><a href="">2010</a></li>
+						<li><a href="">2008</a></li>
+						<li><a href="">2005</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
 
 
 	<!-- CORPO -->

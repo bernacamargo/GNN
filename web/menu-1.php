@@ -1,7 +1,12 @@
+<!-- ================================================== -->
+<!-- ========= MENU GNN/DIRETORIO/DIRETORIO =========== -->
+<!-- ================================================== -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
+	<?php include '../../web/sistema.php';?>
 </head>
 <body>
 <!-- CABEÇALHO -->
@@ -10,7 +15,7 @@
 	<h1 style="text-transform: uppercase;">Grupo de Pesquisa NanoNeuroBioFísica</h1>
 
 
-	<nav style="border-radius: 0;" id="menu" class="navbar navbar-menu-final">
+	<nav style="border-radius: 0; <?php echo $template_theme; ?>" id="menu" class="navbar navbar-menu-final">
 
 		<div class="container">
 
@@ -33,7 +38,7 @@
 					<li><a href="../../linhas-de-pesquisa">Linhas de Pesquisa</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
 							<li><a href="../../equipe/alunos">Alunos</a></li>
 							<li><a href="../../equipe/ex-alunos">Ex-Alunos</a></li>
 							<li><a href="../../equipe/pesquisadores">Pesquisadores</a></li>
@@ -42,7 +47,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="#"class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apoio <span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
 							<li><a href="../../apoio/colaboradores">Colaboradores</a></li>
 							<li role="presentation" class="disabled"><a href="">Patentes</a></li>
 							<li role="presentation" class="disabled"><a href="">Patrocinadores</a></li>
