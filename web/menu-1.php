@@ -10,12 +10,12 @@
 </head>
 <body>
 <!-- CABEÇALHO -->
-<div id="cabecalho" class="cabecalho-final">
+<div style="cursor: default;" id="cabecalho" class="cabecalho-final">
 
 	<h1 style="text-transform: uppercase;">Grupo de Pesquisa NanoNeuroBioFísica</h1>
 
 
-	<nav style="border-radius: 0; <?php echo $template_theme; ?>" id="menu" class="navbar navbar-menu-final">
+	<nav style="border-radius: 0; <?php echo $template_theme; ?>" id="menu" class="navbar navbar-menu-final" role="navigation">
 
 		<div class="container">
 
@@ -27,17 +27,23 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="../../../GNN/">&nbsp;&nbsp;<span class="glyphicon glyphicon-home"></span></a>
+				<a style="position:relative; left: 10%;" class="navbar-brand" href="../../..">&nbsp;&nbsp;<span class="glyphicon glyphicon-home"></span></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse">
+			<div style="position:relative; left: 10%;" class="collapse navbar-collapse" id="menu-toggle">
 				<ul class="nav navbar-nav">
-					<li><a href="../../publicacoes">Publicações</a></li>
-					<li><a href="../../projetos_em_desenvolvimento">Projetos em Desenvolvimento</a></li>
-					<li><a href="../../linhas-de-pesquisa">Linhas de Pesquisa</a></li>
+					<li><a style="<?php if($menu == 'quem-somos') echo $menu_ativo?>" href="../../sobre">Quem somos</a></li>
+					<li><a style="<?php if($menu == 'linhas-de-pesquisa') echo $menu_ativo?>" href="../../linhas-de-pesquisa">Linhas de Pesquisa</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
+						<a style="<?php if($menu == 'projetos') echo $menu_ativo?>" href="" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Projetos <span class="caret"></span></a>
+						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
+							<li><a href="../../projetos/desenvolvidos">Projetos desenvolvidos</a></li>
+							<li><a href="../../projetos/em-desenvolvimento">Projetos em desenvolvimento</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a style="<?php if($menu == 'equipe') echo $menu_ativo?>" href="#" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
 						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
 							<li><a href="../../equipe/alunos">Alunos</a></li>
 							<li><a href="../../equipe/ex-alunos">Ex-Alunos</a></li>
@@ -46,17 +52,15 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#"class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apoio <span class="caret"></span></a>
+						<a style="<?php if($menu == 'apoio') echo $menu_ativo?>" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apoio <span class="caret"></span></a>
 						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
 							<li><a href="../../apoio/colaboradores">Colaboradores</a></li>
-							<li role="presentation" class="disabled"><a href="">Patentes</a></li>
-							<li role="presentation" class="disabled"><a href="">Patrocinadores</a></li>
+							<li><a href="../../apoio/patrocinadores">Patrocinadores</a></li>
 						</ul>
 					</li>
-					<li><a href="../../sobre">Sobre</a></li>
-					<li><a href="../../eventos">Eventos</a></li>
-					<li><a href="../../downloads">Downloads</a></li>
-					<li><a href="../../contato">Contato</a></li>
+					<li><a style="<?php if($menu == 'publicacoes') echo $menu_ativo?>" href="../../publicacoes">Publicações</a></li>
+					<li><a style="<?php if($menu == 'eventos') echo $menu_ativo?>" href="../../eventos">Eventos</a></li>
+					<li><a style="<?php if($menu == 'contato') echo $menu_ativo?>" href="" id="contato">Contato</a></li>
 
 
 				</ul>

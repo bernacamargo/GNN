@@ -18,7 +18,7 @@
 						<tr>
 							<td>
 								<p>
-									Prof. Dr. Fábio de Lima Leite
+									<strong>Coordernador Geral: </strong>Prof. Dr. Fábio de Lima Leite
 								</p>
 
 								<p>
@@ -26,7 +26,7 @@
 								</p>
 
 								<p>
-									<strong>Sala</strong> 48, <strong>Fone: </strong>(15) 9164-4210
+									<strong>Prédio</strong> CCTS, <strong>Sala</strong> 1130, <strong>Fone: </strong>(15) 3229-8817
 								</p>
 								<p>
 									<strong>E-mail:</strong> fabiolimaleite@gmail.com
@@ -37,7 +37,7 @@
 				</div>
 
 				<div class="col-md-6">
-					<iframe width="430" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rodovia+Jo%C3%A3o+Leme+dos+Santos,+Km+110,+SP-264,+Itinga++Sorocaba,+18052-780,+Brasil&amp;aq=&amp;sll=-23.546127,-47.488232&amp;sspn=0.055,0.104628&amp;ie=UTF8&amp;hq=Rodovia+Jo%C3%A3o+Leme+dos+Santos,+Km+110,+SP-264,+Itinga++Sorocaba,+18052-780,+Brasil&amp;hnear=&amp;t=m&amp;cid=13581769078096677930&amp;ll=-23.568865,-47.521963&amp;spn=0.031468,0.038624&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+					<iframe id="mapa" width="430" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rodovia+Jo%C3%A3o+Leme+dos+Santos,+Km+110,+SP-264,+Itinga++Sorocaba,+18052-780,+Brasil&amp;aq=&amp;sll=-23.546127,-47.488232&amp;sspn=0.055,0.104628&amp;ie=UTF8&amp;hq=Rodovia+Jo%C3%A3o+Leme+dos+Santos,+Km+110,+SP-264,+Itinga++Sorocaba,+18052-780,+Brasil&amp;hnear=&amp;t=m&amp;cid=13581769078096677930&amp;ll=-23.568865,-47.521963&amp;spn=0.031468,0.038624&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 				</div>
 
 			</div>

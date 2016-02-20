@@ -4,10 +4,8 @@
 
 $(document).ready(function () {
 
-
         $("#top").click(function(){
-            $(document).scrollTop(0);
-
+            $("html, body").animate({scrollTop: 0}, 200)
         });
 
        /* //jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -22,10 +20,17 @@ $(document).ready(function () {
         });
     */
 
-    $('#corpo').scrollspy({
-        target: '#navbar-lateral',
-        offset: '200'
-    });
+        $('#corpo').scrollspy({
+            target: '#navbar-lateral',
+            offset: '200'
+        });
+
+        $("#contato").click(function () {
+            $("html, body").animate({scrollTop: $(document).height()}, 200)
+           // $("html, body").scrollTop($(document).height());
+            return false;
+        });
+
 
 
 });

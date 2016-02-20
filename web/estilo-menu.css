@@ -1,24 +1,48 @@
 /** Created by Bernardo on 15/02/2016.. */
 
+.logo-menu {
+    display: none;
+    z-index: 1030;
+    color: #333;
+    position: relative;
+    top: 0%;
+    left: 100px;
+    text-align: center;
+}
+
+
+.navbar-menu {
+    position: relative;
+    margin-left: 25%;
+    bottom: -300px;
+    border-right: 1px solid rgba(255,255,255,.2);
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 0px 10px 70px #000;
+    z-index: 1031;
+}
+
 .navbar-menu-inicial {
     position: relative;
     bottom: -300px;
     border-right: 1px solid rgba(255,255,255,.2);
     border-top: none;
     border-bottom: none;
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 0px 10px 70px #000;
 }
 
 .navbar-menu-final {
     position: relative;
     border-top: none;
     border-bottom: none;
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 0px 10px 70px #000;
 }
 
 .navbar-brand {
+    position: relative;
     color: #ffffff;
     border-right: 1px solid rgba(255,255,255,.2);
+    z-index: 1032;
 }
 
 .navbar-brand:active,
@@ -35,22 +59,28 @@
     -ms-transition: background-color .3s;
     -o-transition: background-color .3s;
     transition: background-color .3s;
+}
 
+.dropdown.open span.caret {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
-/*
-.navbar-nav li a:focus,
-.navbar-nav li a:hover {
-    background-color: #333333;
-    color: #ffffff;
-    border-bottom: 7px solid #337ab7;
-}
-*/
 
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
     background-color: #ffffff;
     color: #000;
 }
+
+.navbar-nav li.dropdown a:focus,
+.navbar-nav li.dropdown a:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
 
 
 .navbar-nav .ativo {
@@ -86,19 +116,23 @@
     color: #333;
 }
 
-ul.dropdown-menu .disabled {
-    background-color: #999999;
+ul.dropdown-menu li.disabled a{
+    color: #999999;
 }
 
-ul.dropdown-menu .disabled:hover,
-ul.dropdown-menu .disabled:active,
-ul.dropdown-menu .disabled:focus {
-
+ul.dropdown-menu li.disabled a:hover,
+ul.dropdown-menu li.disabled a:active,
+ul.dropdown-menu li.disabled a:focus {
+    color: #999999;
+    background-color: transparent;
 }
 
 .navbar-nav li.dropdown.open .dropdown-toggle{
     color: #000;
 }
+
+
+
 
 
 
@@ -157,4 +191,5 @@ ul.dropdown-menu .disabled:focus {
 .navbar-lateral > ul > li > ul > li > a {
     line-height: 25pt;
     color: #ff7600;
+    text-align: center;
 }

@@ -1,25 +1,13 @@
 <?php
 $DESCRIÇAO = 'EX-ALUNOS';
+$menu = 'equipe'
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>NanoNeuroBioPhysics</title>
 
-	<!-- ===== Stylesheet ===== -->
-	<link rel="stylesheet" href="../../../bootstrap-3.3.6-dist/css/bootstrap.css"/>
-	<link rel="stylesheet" href="../../web/estilo-menu.css"/>
-	<link rel="stylesheet" href="../../web/estilo.css"/>
+<?php include '../../web/sistema.php'?>
 
-	<!-- ===== JavaScript ===== -->
-	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
-	<script type="text/javascript" src="../../web/func.js"></script>
-</head>
 
 <body>
 <div class="container-fluid" id="corpo-full">
@@ -46,7 +34,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 						<h6 class="subtitulo">&#9634; Iniciação Científica</h6>
 						<br><br>
 				<p></b></p>
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/ana-carolina.png" alt="" title="ana carolina" width="113" height="157" class="alignleft size-full wp-image-247" /><br />
+				<p><img style="float: right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/ana-carolina.png" alt="" title="ana carolina" width="113" height="157" class="alignleft size-full wp-image-247" /><br />
 					<strong>Nome:</strong> Ana Carolina Araujo Vig<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/4240699790349372" target="_blank">http://lattes.cnpq.br/4240699790349372</a><br />
 					<strong>E-mail:</strong> <a href="mailto:ana_vig_92@hotmail.com" target="_blank">ana_vig_92@hotmail.com</a><br />
@@ -58,7 +46,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/gabrielle.png" alt="" title="gabrielle" width="113" height="156" class="alignleft size-full wp-image-152" /><br />
+				<p><img style="float:right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/gabrielle.png" alt="" title="gabrielle" width="113" height="156" class="alignleft size-full wp-image-152" /><br />
 					<strong>Nome:</strong> Gabrielle de Almeida Ribeiro<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/5507911785390718" target="_blank">http://lattes.cnpq.br/5507911785390718</a><br />
 					<strong>E-mail:</strong> <a href="mailto:gabriellean_ribeiro@hotmail.com " target="_blank">gabriellean_ribeiro@hotmail.com </a><br />
@@ -72,7 +60,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/yves.png" alt="" title="yves" width="113" height="157" class="alignleft size-full wp-image-158" /><br />
+				<p><img style="float:right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/yves.png" alt="" title="yves" width="113" height="157" class="alignleft size-full wp-image-158" /><br />
 					<strong>Nome:</strong> Yves Fumio Shinzato<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/3802644552423675" target="_blank">http://lattes.cnpq.br/3802644552423675</a><br />
 					<strong>E-mail:</strong> <a href="mailto:yves.shinzato@hotmail.com " target="_blank">yves.shinzato@hotmail.com </a><br />
@@ -91,7 +79,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 				<h6 class="subtitulo">&#9634; Mestrado</h6>
 				<br><br>
 
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/carolina.png" alt="" title="carolina" width="113" height="157" class="alignleft size-full wp-image-167" /><br />
+				<p><img style="float:right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/carolina.png" alt="" title="carolina" width="113" height="157" class="alignleft size-full wp-image-167" /><br />
 					<strong>Nome:</strong> Carolina de Castro Bueno<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/0360648402108277" target="_blank">http://lattes.cnpq.br/0360648402108277</a><br />
 					<strong>E-mail:</strong> <a href="mailto:carolcastrob@gmail.com" target="_blank">carolcastrob@gmail.com </a><br />
@@ -104,7 +92,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 					<br><br>
 				</p>
 
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/renata.png" alt="" title="renata" class="alignleft size-full wp-image-163" /><br />
+				<p><img style="float:right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/06/renata.png" alt="" title="renata" class="alignleft size-full wp-image-163" /><br />
 					<strong>Nome:</strong> Renata Nascimento<br />
 					<strong>Curriculum Lattes:</strong> <a href="http://lattes.cnpq.br/0409558952213025" target="_blank">http://lattes.cnpq.br/0409558952213025</a><br />
 					<strong>E-mail:</strong> <a href="mailto:renatana@gmail.com" target="_blank">renatana@gmail.com</a><br />
@@ -124,7 +112,7 @@ $DESCRIÇAO = 'EX-ALUNOS';
 				<h6 class="subtitulo">&#9634; Pós-Doutorado</h6>
 				<br><br>
 
-				<p><img style="border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/daiana.png" alt="" title="daiana" width="113" height="157" class="alignleft size-full wp-image-208" /><br />
+				<p><img style="float:right; border:5px ridge #ccc" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/daiana.png" alt="" title="daiana" width="113" height="157" class="alignleft size-full wp-image-208" /><br />
 					<strong>Nome:</strong> Daiana Kotra Deda Nogueira<br />
 					<strong>Curriculum Lattes:</strong><a href="http://lattes.cnpq.br/8138074660191635" target="_blank"> http://lattes.cnpq.br/8138074660191635</a><br />
 					<strong>E-mail:</strong> <a href="mailto:daianakdn@gmail.com " target="_blank">daianakdn@gmail.com </a><br />

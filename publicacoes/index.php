@@ -1,32 +1,12 @@
 <?php
 	$DESCRIÇAO = 'PUBLICAÇÕES';
+	$menu = 'publicacoes';
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>NanoNeuroBioPhysics</title>
 
-	<!-- ===== Stylesheet ===== -->
-	<link rel="stylesheet" href="../web/bootstrap-3.3.6-dist/css/bootstrap.css"/>
-	<link rel="stylesheet" href="../web/estilo-menu.css"/>
-	<link rel="stylesheet" href="../web/estilo.css"/>
-
-	<!-- ===== JavaScript ===== -->
-	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
-	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
-	<script type="text/javascript" src="../web/func.js"></script>
-	<script type="text/javascript">
-		offsetValue = 40;
-		$('#publicacoes').data().scrollspy.options.offset = offsetValue;
-		// force scrollspy to recalculate the offsets to your targets
-		$('#publicacoes').data().scrollspy.process();
-	</script>
-</head>
+<?php include '../web/sistema.php'?>
 
 <body>
 <div class="container-fluid" id="corpo-full">
@@ -36,7 +16,7 @@
 	?>
 
 	<!-- Menu-lateral -->
-	<div align="center" id="menu-lateral">
+	<div style="display: none;" align="center" id="menu-lateral">
 		<nav class="navbar-lateral" role="navigation">
 			<ul class="nav nav-stacked">
 				<li ><a class="dropdown-header" href="">Índice</a></li>

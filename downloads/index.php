@@ -1,5 +1,6 @@
 <?php
 $DESCRIÇAO = 'DOWNLOADS';
+$menu = 'downloads';
 ?>
 
 <!DOCTYPE html>

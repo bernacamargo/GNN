@@ -3,9 +3,7 @@
 body,html {
     position: relative;
     height: 100%;
-    background-color: #e0e0e0;
-    padding-top: 50px;
-    margin-top: -50px;
+    background-color: #3E708D;
 }
 
 .container {
@@ -34,6 +32,16 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
+    padding-bottom: 200px;
+}
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    background-image: url('../web/imagens/cabecalho-art6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1030;
 }
 
 .cabecalho-inicial {
@@ -84,24 +92,32 @@ a:focus {
     display: none;
 }
 
+
 #corpo {
     position: relative;
     background-color: #ffffff;
-    box-shadow: 1px 1px 5px 1px;
+    box-shadow: 2px 2px 50px #333;
     color: #000;
     border-radius: 10px;
-    padding-bottom: 200px;
-    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 0px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 15%;
 }
 
 #index {
     position: relative;
-    padding-bottom: 200px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 50px #333;
+    color: #000;
+    border-radius: 5px;
+    padding-bottom: 30px;
     padding-top: 30px;
+    margin-top: 2%;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 5%;
 }
 #contato {
     position: relative;
@@ -157,8 +173,59 @@ a:focus {
     text-align: center;
 }
 
+.equipe {
+    display: block;
+    position: relative;
+}
 
+.equipe-imagem {
+    display: block;
+    position: relative;
+    left: 30px;
+    width: 113px;
+    height: 157px;
+}
 
+.equipe-legenda {
+    display: inline;
+    position: relative;
+    left: 10%;
+}
+
+.box {
+    background: #ccc;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto 6px;
+}
+.box:before,
+.box:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 19%;
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.7);
+
+    -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+}
+.box:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
 
 
 
@@ -168,16 +235,16 @@ a:focus {
     position: absolute;
     height: 400px;
     width: 100%;
-    z-index: 1031;
     color: #ffffff;
     border-top: 1px solid #333;
+    box-shadow: 0 -50px 60px rgba(0,0,0,.3);
 }
 
 #rodape .contato {
     width: 100%;
     background-color: transparent;
     color: #ffffff;
-    height: 330px;
+    height: 80%;
 }
 
 #rodape .footer {
