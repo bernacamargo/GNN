@@ -5,20 +5,9 @@
 $(document).ready(function () {
 
         $("#top").click(function(){
-            $("html, body").animate({scrollTop: 0}, 200)
+            $("html, body").animate({scrollTop: 0}, 200);
+            return false;
         });
-
-       /* //jQuery for page scrolling feature - requires jQuery Easing plugin
-        $(function() {
-            $('a.page-scroll').bind('click', function(event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
-                }, 1500, 'easeInOutExpo');
-                event.preventDefault();
-            });
-        });
-    */
 
         $('#corpo').scrollspy({
             target: '#navbar-lateral',
@@ -26,11 +15,7 @@ $(document).ready(function () {
         });
 
         $("#contato").click(function () {
-            $("html, body").animate({scrollTop: $(document).height()}, 200)
-           // $("html, body").scrollTop($(document).height());
+            $("html, body").animate({scrollTop: $(document).height()}, 200);
             return false;
         });
-
-
-
 });

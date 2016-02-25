@@ -33,7 +33,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div style="position:relative; left: 10%;" class="collapse navbar-collapse" id="menu-toggle">
 				<ul class="nav navbar-nav">
-					<li><a style="<?php if($menu == 'quem-somos') echo $menu_ativo?>" href="../../sobre">Quem somos</a></li>
+					<li><a style="<?php if($menu == 'quem-somos') echo $menu_ativo?>" href="../../quem-somos">Quem somos</a></li>
 					<li><a style="<?php if($menu == 'linhas-de-pesquisa') echo $menu_ativo?>" href="../../linhas-de-pesquisa">Linhas de Pesquisa</a></li>
 					<li class="dropdown">
 						<a style="<?php if($menu == 'projetos') echo $menu_ativo?>" href="" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Projetos <span class="caret"></span></a>

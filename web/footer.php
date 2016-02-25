@@ -10,7 +10,7 @@
 		<div id="contato" class="container">
 
 			<div class="row">
-				<div style="top: 50px;" class="col-md-5">
+				<div style="top: 50px;" class="col-md-6">
 					<h5 class="subtitulo">Contato</h5>
 					<li style="background-color: rgba(255,255,255,.5)" class="separador" role="separator"></li>
 

@@ -53,5 +53,6 @@ $root_html = '/';
 	<script type="text/javascript" src="../web/func.js"></script>
 	<script type="text/javascript" src="../../web/func.js"></script>
 	<script type="text/javascript">
+
 	</script>
 </head>
