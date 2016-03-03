@@ -45,7 +45,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a style="<?php if($menu == 'equipe') echo $menu_ativo?>" href="#" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
+						<a style="<?php if($menu == 'equipe') echo $menu_ativo?>" href="" class="dropdown-toggle" data-hover="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Equipe <span class="caret"></span></a>
 						<ul style="<?php echo $template_theme; ?>" class="dropdown-menu">
 							<li><a href="../equipe/alunos">Alunos</a></li>
 							<li><a href="../equipe/ex-alunos">Ex-Alunos</a></li>
@@ -62,7 +62,7 @@
 					</li>
 					<li><a style="<?php if($menu == 'publicacoes') echo $menu_ativo?>" href="../publicacoes">Publicações</a></li>
 					<li><a style="<?php if($menu == 'eventos') echo $menu_ativo?>" href="../eventos">Eventos</a></li>
-					<li><a style="<?php if($menu == 'contato') echo $menu_ativo?>" href="" id="contato">Contato</a></li>
+					<li><a style="<?php if($menu == 'contato') echo $menu_ativo?>" href="" class="contato1">Contato</a></li>
 
 
 				</ul>

@@ -81,6 +81,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img  style="border: 5px ridge #ccc;" title="Francisco Trivinho Strixin" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/francisco2.png" alt="" width="113" height="157" /><br>
@@ -95,6 +97,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
@@ -133,6 +137,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img style="border: 5px ridge #ccc;" title="Eduardo de Faria Franca" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/eduardo1.png" alt="" width="113" height="157"/><br>
@@ -147,6 +153,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
@@ -185,6 +193,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img style="border: 5px ridge #ccc;" title="Guilherme Sciascia do Olival" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/guilherme1.png" alt="" width="113" height="157"/><br>
@@ -198,6 +208,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
@@ -235,6 +247,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img style="border: 5px ridge #ccc;" title="Camila Malta Romano" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/camila1.png" alt="" width="113" height="157" /><br>
@@ -250,6 +264,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img style="border: 5px ridge #ccc;" title="default_avatar" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/default_avatar.jpg" alt="" width="113" height="157" /><br>
@@ -264,6 +280,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
@@ -281,6 +299,7 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
 				<li role="separator" class="separador"></li>
 				<br>
 
@@ -301,6 +320,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
@@ -340,6 +361,8 @@ $menu = 'equipe'
 					</div>
 				</div>
 
+				<br>
+
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">
 						<img style="border: 5px ridge #ccc;" title="luiz henrique" src="http://www.nanoneurobiophysics.net/wp-content/uploads/2012/07/luiz-henrique1.png" alt="" width="113" height="157"/><br>
@@ -355,6 +378,8 @@ $menu = 'equipe'
 						</p>
 					</div>
 				</div>
+
+				<br>
 
 				<div class="media">
 					<div style="position:relative;left: 0" class="media-left media-middle">

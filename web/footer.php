@@ -7,12 +7,14 @@
 <body>
 <div id="rodape" style="<?php echo $template_theme ?>">
 	<div class="contato">
-		<div id="contato" class="container">
+		<div align="center" id="contato" class="container">
 
 			<div class="row">
 				<div style="top: 50px;" class="col-md-6">
 					<h5 class="subtitulo">Contato</h5>
 					<li style="background-color: rgba(255,255,255,.5)" class="separador" role="separator"></li>
+
+					<br>
 
 					<table>
 						<tr>
@@ -26,7 +28,7 @@
 								</p>
 
 								<p>
-									<strong>Prédio</strong> CCTS, <strong>Sala</strong> 1130, <strong>Fone: </strong>(15) 3229-8817
+									<strong>Prédio</strong> CCTS, <strong>Sala</strong> 1130, <strong>Fone: </strong>+55(15) 3229-8817
 								</p>
 								<p>
 									<strong>E-mail:</strong> fabiolimaleite@gmail.com
@@ -58,7 +60,9 @@
 				</tr>
 				<tr>
 					<td>
-						Website desenvolvido por Bernardo Camargo.
+						Website desenvolvido por Bernardo Camargo | <span class="
+glyphicon glyphicon-envelope"></span> bernardopcamargo@gmail.com | <span class="glyphicon glyphicon-phone-alt
+"></span> +55(16) 98100-4626
 					</td>
 					<button style="float: right;" class="btn btn-default" id="top"><span class="glyphicon glyphicon-menu-up"></span> <strong>top</strong></button>
 

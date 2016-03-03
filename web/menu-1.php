@@ -60,7 +60,7 @@
 					</li>
 					<li><a style="<?php if($menu == 'publicacoes') echo $menu_ativo?>" href="../../publicacoes">Publicações</a></li>
 					<li><a style="<?php if($menu == 'eventos') echo $menu_ativo?>" href="../../eventos">Eventos</a></li>
-					<li><a style="<?php if($menu == 'contato') echo $menu_ativo?>" href="" id="contato">Contato</a></li>
+					<li><a style="<?php if($menu == 'contato') echo $menu_ativo?>" href="" class="contato1">Contato</a></li>
 
 
 				</ul>

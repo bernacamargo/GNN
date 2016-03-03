@@ -27,17 +27,15 @@ $menu = 'apoio';
 
 
 			<br>
-			<div align="center" class="alert alert-danger" role="alert"><strong>Em construção. <br>Desculpe o transtorno</strong></div>
 
-
-			<div align="center" style="height: auto; background-color: #fff;" class="row hidden">
+			<div align="center" style="height: auto; background-color: #fff;" class="row">
 				<div style="float: left;" class="col-md-6" id="rheabiotech">
 					<a href="http://www.rheabiotech.com.br/" target="_blank"><img src="../../web/imagens/logo-rhe.png" width="300" height="200" alt=""></a>
 					<br>
 					<h5 style="font-weight: bolder;">Rheabiotech</h5>
 				</div>
 				<div style="float: left; " class="col-md-6" id="pfc">
-					<a href="http://www.futurocientista.net" target="_blank"><img src="../../web/imagens/logo-pfc.png" width="300" height="200" alt=""></a>
+					<a href="http://www.futurocientista.net" target="_blank"><img src="../../web/imagens/logo-pfc-branco.jpg" width="200" height="200" alt=""></a>
 					<br>
 					<h5 style="font-weight: bolder;">Programa Futuro Cientista</h5>
 				</div>

@@ -4,64 +4,50 @@ $DESCRIÇAO = 'PAGINA INICIAL';
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>NanoNeuroBioPhysics</title>
 
-	<!-- ===== Stylesheet ===== -->
-	<link rel="stylesheet" href="../bootstrap-3.3.6-dist/css/bootstrap.css"/>
-	<link rel="stylesheet" href="web/estilo-menu.css"/>
-	<link rel="stylesheet" href="web/estilo.css"/>
+<?php include 'web/sistema.php'; ?>
 
-	<!-- ===== JavaScript ===== -->
-	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/jquery-ui.js"></script>
-	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
-	<script type="text/javascript" src="web/func.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
+<script type="text/javascript">
+	$(document).ready(function(){
 
 
-			//FUNCAO SCROLL TOP
-			$(window).scroll(function () {
+		//FUNCAO SCROLL TOP
+		$(window).scroll(function () {
 
 
 
-				if ($(document).scrollTop() > 250) {
+			if ($(document).scrollTop() > 250) {
 
 
-				}
+			}
 
 
 
 
-				if ($(document).scrollTop() > $('#cabecalho').height()/2) {
-					// Inicial -> Final
-					/*$(".cabecalho").animate({height: '13%'},300);
-					$(".cabecalho").css("position", "fixed");
-					$("#menu").animate({bottom: 'auto'},300);*/
-					/*$("#cabecalho > h1, #cabecalho > h1 > small").css("position","relative");
-					$("#cabecalho").switchClass('cabecalho-inicial', 'cabecalho-final', 200);
-					$("#menu").switchClass('navbar-menu-inicial', 'navbar-menu-final', 200);
-					$("#index").css("margin-top", "300px");*/
-				} else {
-					// Final -> Inicial
-					/*$(".cabecalho").css("position", "relative");
-					$(".cabecalho").animate({height: '400px',position: 'relative'}, 300);
-					$("#menu").animate({bottom: '-300px'},300);*/
-					/*$("#cabecalho").switchClass('cabecalho-final', 'cabecalho-inicial', 0);
-					$("#menu").switchClass('navbar-menu-final', 'navbar-menu-inicial', 0);
-					$("#index").css("margin-top", "0");*/
-				}
-			});
-
-			$(".imagem").height($('.thumbnail').height()/2));
-
+			if ($(document).scrollTop() > $('#cabecalho').height()/2) {
+				// Inicial -> Final
+				/*$(".cabecalho").animate({height: '13%'},300);
+				 $(".cabecalho").css("position", "fixed");
+				 $("#menu").animate({bottom: 'auto'},300);*/
+				/*$("#cabecalho > h1, #cabecalho > h1 > small").css("position","relative");
+				 $("#cabecalho").switchClass('cabecalho-inicial', 'cabecalho-final', 200);
+				 $("#menu").switchClass('navbar-menu-inicial', 'navbar-menu-final', 200);
+				 $("#index").css("margin-top", "300px");*/
+			} else {
+				// Final -> Inicial
+				/*$(".cabecalho").css("position", "relative");
+				 $(".cabecalho").animate({height: '400px',position: 'relative'}, 300);
+				 $("#menu").animate({bottom: '-300px'},300);*/
+				/*$("#cabecalho").switchClass('cabecalho-final', 'cabecalho-inicial', 0);
+				 $("#menu").switchClass('navbar-menu-final', 'navbar-menu-inicial', 0);
+				 $("#index").css("margin-top", "0");*/
+			}
 		});
-	</script>
-</head>
+
+		$(".imagem").height($('.thumbnail').height()/2));
+
+	});
+</script>
 
 <body>
 <div class="container-fluid" id="corpo-full">

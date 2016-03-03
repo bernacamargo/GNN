@@ -1,5 +1,4 @@
 <?php
-
 	$template_theme =  '
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
 background: rgb(69,72,77); /* Old browsers */
@@ -18,11 +17,12 @@ $root_html = '/';
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>GNN</title>
 
-	<!-- ===== Stylesheet ===== -->
+	<!-- ===== ICON ===== -->
 	<link rel="icon" href="web/imagens/favicon (1).ico"/>
 	<link rel="icon" href="../web/imagens/favicon (1).ico"/>
 	<link rel="icon" href="../../web/imagens/favicon (1).ico"/>
 
+	<!-- ===== Stylesheet ===== -->
 	<link rel="stylesheet" href="web/bootstrap-3.3.6-dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="../web/bootstrap-3.3.6-dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="../../web/bootstrap-3.3.6-dist/css/bootstrap.css"/>
@@ -43,16 +43,16 @@ $root_html = '/';
 	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src=".web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
+	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
 	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/bootstrap-dropdown-hover.js"></script>
 	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
 	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
 	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+	<script type="text/javascript" src="web/bootstrap-3.3.6-dist/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="../web/bootstrap-3.3.6-dist/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="../../web/bootstrap-3.3.6-dist/js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="web/func.js"></script>
 	<script type="text/javascript" src="../web/func.js"></script>
 	<script type="text/javascript" src="../../web/func.js"></script>
-	<script type="text/javascript">
-
-	</script>
 </head>
